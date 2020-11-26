@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--acces au document CSS-->
+    <link rel="stylesheet" href="style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <!--Question 1-->
+        <form class="form-quizz">
+                <div class="block1">
+                    <h3>Quel animal est proche de l’oryx ?</h3>
+                    <!--Reponse 1-->
+                    <div id="bouton">
+                        <input type="radio" id="q1r1" name="q1" value="q1r1" checked>
+                        <label for="q1r1">Un guépard</label>
+                    </div>
+                    <!--Reponse 2-->
+                    <div id="bouton">
+                        <input type="radio" id="q1r2" name="q1" value="q1r2" >
+                        <label for="q1r2">Une gazelle</label>
+                    </div>
+                    <!--Reponse 3-->
+                    <div id="bouton">
+                        <input type="radio" id="q1r3" name="q1" value="q1r3">
+                        <label for="q1r3">Un hippopotame</label>
+                    </div>
+                    <!--Reponse 4-->
+                    <div id="bouton">
+                        <input type="radio" id="q1r4" name="q1" value="q1r4">
+                        <label for="q1r4">Un tamanoir</label>
+                    </div>
+                </div>
+                <!--Question 2-->
+                <div class="block2">
+                    <h3>À quelle famille animale appartient le zébu ?</h3>
+                    <!--Reponse 1-->
+                    <div id="bouton">
+                        <input type="radio" id="q2r1" name="q2" value="q2r1" checked>
+                        <label for="q2r1">Les batraciens</label>
+                    </div>
+                    <!--Reponse 2-->
+                    <div id="bouton">
+                        <input type="radio" id="q2r2" name="q2" value="q2r2" >
+                        <label for="q2r2">Les bovidés</label>
+                    </div>
+                    <!--Reponse 3-->
+                    <div id="bouton">
+                        <input type="radio" id="q2r3" name="q2" value="q2r3">
+                        <label for="q2r3">Les insectes</label>
+                    </div>
+                    <!--Reponse 4-->
+                    <div id="bouton">
+                        <input type="radio" id="q2r4" name="q2" value="q2r4">
+                        <label for="q2r4">Les reptiles</label>
+                    </div>
+                </div>
+                <!--Question 3-->
+                <div class="block3">
+                    <h3> Quel animal est à l’honneur dans le film « Jappeloup » ?</h3>
+                    <!--Reponse 1-->
+                    <div id="bouton">
+                        <input type="radio" id="q3r1" name="q3" value="q3r1" checked>
+                        <label for="q3r1">Un renard</label>
+                    </div>
+                    <!--Reponse 2-->
+                    <div id="bouton">
+                        <input type="radio" id="q3r2" name="q3" value="q3r2">
+                        <label for="q3r2">Un serpent</label>
+                    </div>
+                    <!--Reponse 3-->
+                    <div id="bouton">
+                        <input type="radio" id="q3r3" name="q3" value="q3r3">
+                        <label for="q3r3">Un tigre</label>
+                    </div>
+                    <!--Reponse 4-->
+                    <div id="bouton">
+                        <input type="radio" id="q3r4" name="q3" value="q3r4" >
+                        <label for="q3r4">Un cheval</label>
+                    </div>
+                </div>
+                <!--Question 4-->
+                <div class="block4">
+                    <h3>Quel animal ne vole pas ?</h3>
+                    <!--Reponse 1-->
+                    <div id="bouton">
+                        <input type="radio" id="q4r1" name="q4" value="q4r1" checked>
+                        <label for="q4r1">Le pingouin</label>
+                    </div>
+                    <!--Reponse 2-->
+                    <div id="bouton">
+                        <input type="radio" id="q4r2" name="q4" value="q4r2">
+                        <label for="q4r2">La cigogne</label>
+                    </div>
+                    <!--Reponse 3-->
+                    <div id="bouton">
+                        <input type="radio" id="q4r3" name="q4" value="q4r3" >
+                        <label for="q4r3">Le manchot</label>
+                    </div>
+                    <!--Reponse 4-->
+                    <div id="bouton">
+                        <input type="radio" id="q4r4" name="q4" value="q4r4">
+                        <label for="q4r4">Le pélican</label>
+                    </div>
+                </div>
+            <!--bouton envoyer-->
+            <button type="submit">Validez vos choix</button>
+            </div>
+        </form>
+        <div class="resultat">
+            <h2>cliquez sur envoyer pour voir les resultats</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </main>
+    <script src="dynamique/index.js"></script>
+</body>
+</html>
