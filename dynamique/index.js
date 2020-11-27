@@ -97,9 +97,9 @@ function afficheResultat(tableau) {
         //Dans le cas ou 4 faux 
         case 4:
             //Ecrire dans ma classe resultat de mon html
-            TITRERESULTAT.innerText = "☠️ Tu est nul !!";
+            TITRERESULTAT.innerText = "☠️ Tu es nul !!";
             //Ecrire dans ma classe aide de mon html
-            AIDERESULTAT.innerText = "Arrete tout !!";
+            AIDERESULTAT.innerText = "Stop tout !!";
             //Ecrire dans ma classe note de mon html
             NOTERESULTAT.innerText = "0 Bonne reponse sur 4";
             break;
