@@ -65,25 +65,25 @@ function afficheResultat(tableau) {
             //Ecrire dans ma classe aide de mon html
             AIDERESULTAT.innerText = "";
             //Ecrire dans ma classe note de mon html
-            NOTERESULTAT.innerText = "4 Bonne reponse sur 4";
+            NOTERESULTAT.innerText = "4 Bonnes reponses sur 4";
             break;
         //Dans le cas ou 1 faux 
         case 1:
             //Ecrire dans ma classe resultat de mon html
             TITRERESULTAT.innerText =  "😞 Aiieee Tu y est presque";
             //Ecrire dans ma classe aide de mon html
-            AIDERESULTAT.innerText = "Retente ta chance y'en a qu'un de faux";
+            AIDERESULTAT.innerText = "Veuillez recommencer il y à 3 bonnes reponses";
             //Ecrire dans ma classe note de mon html
-            NOTERESULTAT.innerText = "3 Bonne reponse sur 4";
+            NOTERESULTAT.innerText = "3 Bonnes reponses sur 4";
             break;
         //Dans le cas ou 2 faux 
         case 2:
             //Ecrire dans ma classe resultat de mon html
-            TITRERESULTAT.innerText = "😢Aller ces la moitier";
+            TITRERESULTAT.innerText = "😢 Tu as reussi la moitier";
             //Ecrire dans ma classe aide de mon html
-            AIDERESULTAT.innerText = "Retente ta chance il y en a que 2 de faux";
+            AIDERESULTAT.innerText = "Veuillez recommencer il y à 2 bonnes reponses";
             //Ecrire dans ma classe note de mon html
-            NOTERESULTAT.innerText = "2 Bonne reponse sur 4";
+            NOTERESULTAT.innerText = "2 Bonnes reponses sur 4";
             break;
         //Dans le cas ou 3 faux 
         case 3:
